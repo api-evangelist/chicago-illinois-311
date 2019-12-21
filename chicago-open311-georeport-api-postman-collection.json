@@ -1,5 +1,5 @@
 {
-    "id": "ef29307a529139b0b382348471d9c29c",
+    "id": "a39426bb7ca0e066db72647b32c68087",
     "name": "Chicago Open311 GeoReport API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "ba51a44b863bbf0a08b18f9307fcb70a",
+            "id": "56cf4a082300b77736abf22322dcb28a",
             "name": "Requests",
             "url": "http311api.cityofchicago.org\/open311\/v2\/\/requests.{response_format}",
             "description": "Query the current status of multiple requests.",
@@ -72,11 +72,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ef29307a529139b0b382348471d9c29c",
+            "collectionId": "a39426bb7ca0e066db72647b32c68087",
             "rawModeData": ""
         },
         {
-            "id": "741dbd0eb50338c10976cfc21fed8b7d",
+            "id": "647f3244648997286000e6fc30db9dc2",
             "name": "Create Service Request",
             "url": "http311api.cityofchicago.org\/open311\/v2\/\/requests.{response_format}",
             "description": "Submit a new request for with specific details of a single service. Must provide a location via lat\/long or address_string or address_id",
@@ -145,11 +145,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ef29307a529139b0b382348471d9c29c",
+            "collectionId": "a39426bb7ca0e066db72647b32c68087",
             "rawModeData": ""
         },
         {
-            "id": "8acacf7333d0633abc3fd6ea4a5c95e8",
+            "id": "58fa24551924fd3913fa3b0b8bd2800b",
             "name": "Current Status",
             "url": "http311api.cityofchicago.org\/open311\/v2\/\/request\/{service_request_id}.{response_format}",
             "description": "Query the current status of an individual request",
@@ -176,11 +176,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ef29307a529139b0b382348471d9c29c",
+            "collectionId": "a39426bb7ca0e066db72647b32c68087",
             "rawModeData": ""
         },
         {
-            "id": "6d03074c3ba2131bc1a32f7479fc4217",
+            "id": "5d5183c17ec53a09f7246b0dcc732421",
             "name": "Service Types",
             "url": "http311api.cityofchicago.org\/open311\/v2\/\/services.{response_format}",
             "description": "List acceptable service request types and their associated service codes. These request types can be unique to the city\/jurisdiction.",
@@ -207,11 +207,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ef29307a529139b0b382348471d9c29c",
+            "collectionId": "a39426bb7ca0e066db72647b32c68087",
             "rawModeData": ""
         },
         {
-            "id": "4256cf74193444c30c81db5de01fac3f",
+            "id": "51bbb453fee2d7ff3db6871ad5df2280",
             "name": "(extended) Definition Of A Service Type",
             "url": "http311api.cityofchicago.org\/open311\/v2\/\/services\/{service_code}.{response_format}",
             "description": "Define attributes associated with a service code. These attributes can be unique to the city\/jurisdiction.",
@@ -238,11 +238,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ef29307a529139b0b382348471d9c29c",
+            "collectionId": "a39426bb7ca0e066db72647b32c68087",
             "rawModeData": ""
         },
         {
-            "id": "98a64a99faa118acd88eb2e64dd1aeea",
+            "id": "4b6023864a44077c0d6c0e5fe90e4a23",
             "name": "Id Of Service_request Via Token",
             "url": "http311api.cityofchicago.org\/open311\/v2\/\/tokens\/{token_id}.{response_format}",
             "description": "Get the service_request_id from a temporary token. This is unnecessary if the response from creating a service request does not contain a token.",
@@ -269,7 +269,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ef29307a529139b0b382348471d9c29c",
+            "collectionId": "a39426bb7ca0e066db72647b32c68087",
             "rawModeData": ""
         }
     ]
